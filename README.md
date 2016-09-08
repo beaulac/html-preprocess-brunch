@@ -26,16 +26,16 @@ exports.config =
 Directives for if, else, elseif, and endif are available to control what html gets compiled. Each must be on its own line and prepended by the comment op (`<!-- -->`). 
 
 ```html
-`<!-- @if (PRODUCTION) -->`
+<!-- @if (PRODUCTION) -->
 ...
 
-`<!-- @elseif (DEBUG) -->`
+<!-- @elseif (DEBUG) -->
 ...
 
-`<!-- @else -->`
+<!-- @else -->
 ...
 
-`<!-- @endif -->`
+<!-- @endif -->
 ```
 
 Note the use of parentheses. Unlike C preprocessor directives, those parentheses are required for `@if` and `@elseif` statements.
